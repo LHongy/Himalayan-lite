@@ -1,0 +1,8 @@
+<view class="staff">
+	<!-- 员工详情 -->
+	<view class="staff-content">
+		<!-- 员工姓名 -->
+    <view class="staff-index"></view>
+		<view class="">{{ staff.name }}</view>
+	</view>
+</view>

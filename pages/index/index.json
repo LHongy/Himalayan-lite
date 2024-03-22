@@ -1,6 +1,5 @@
 {
 	"usingComponents": {
-		"search": "/components/search/search",
-		"showItem": "/components/showItem/showItem"
+    
 	}
 }

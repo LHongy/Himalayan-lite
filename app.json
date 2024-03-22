@@ -1,16 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/classification/classification",
-    "pages/collection/collection",
     "pages/user/user",
-    "pages/index/bangdan/bangdan",
-    "pages/details/details",
-    "pages/user/phoneLogin/phoneLogin",
-    "pages/search/search"
+    "pages/staffs/list/list",
+    "pages/staffs/details/details",
+    "pages/orders/list/orderList",
+    "pages/orders/details/orderDetails",
+    "pages/user/phoneLogin/phoneLogin"
   ],
   "window": {
-    "navigationBarTitleText": "喜马拉雅",
+    "navigationBarTitleText": "音乐教育",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black"
@@ -26,18 +25,6 @@
         "selectedIconPath": "/image/tabbar/home-selectIcon.png"
       },
       {
-        "pagePath": "pages/classification/classification",
-        "text": "分类",
-        "iconPath": "/image/tabbar/fen-icon.png",
-        "selectedIconPath": "/image/tabbar/fen-selectIcon.png"
-      },
-      {
-        "pagePath": "pages/collection/collection",
-        "text": "收藏",
-        "iconPath": "/image/tabbar/collection-icon.png",
-        "selectedIconPath": "/image/tabbar/collection-selectIcon.png"
-      },
-      {
         "pagePath": "pages/user/user",
         "text": "我的",
         "iconPath": "/image/tabbar/user-icon.png",
@@ -46,5 +33,8 @@
     ]
   },
   "debug": true,
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  }
 }

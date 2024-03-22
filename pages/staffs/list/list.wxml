@@ -1,0 +1,12 @@
+<view class="staff">
+	<!-- 员工搜索 -->
+  <mp-searchbar placeholder="搜索" bindinput="onSearchInput" bindclear="onSearchClear"></mp-searchbar>
+
+	<!-- 员工列表 -->
+	<view class="staff-content" wx:for="{{staffs}}" wx:key="index" bindtap="viewDetails" data-id="{{ item.id }}">
+		<!-- 序号 -->
+		<view class="staff-index">{{ item.id }}</view>
+		<!-- 员工姓名 -->
+		<view class="">{{ item.name }}</view>
+	</view>
+</view>
