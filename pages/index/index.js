@@ -24,8 +24,13 @@ Page({
       },
       {
 				icon: '/image/nav-icon/diantai.png',
-				events: 'orders',
-				text: '课表管理'
+				events: 'appointments',
+				text: '预约管理'
+      },
+      {
+				icon: '/image/nav-icon/xiaoshuo.png',
+				events: 'courses',
+				text: '课程管理'
       },
     ],
 		swiperCurrent: 0,
@@ -54,13 +59,13 @@ Page({
 
 	staffs(e) {
 		wx.navigateTo({
-			url: '/pages/staffs/list/list',
+			url: '/pages/staffs/list/staffList',
 		})
   },
 
-  orders(e) {
+  courses(e) {
 		wx.navigateTo({
-			url: '/pages/orders/list/orderList',
+			url: '/pages/courses/list/courseList',
 		})
 	}
 })

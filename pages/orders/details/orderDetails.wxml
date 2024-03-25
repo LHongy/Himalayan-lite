@@ -1,8 +1,0 @@
-<view class="order">
-	<!-- 订单详情 -->
-	<view class="order-content">
-		<!-- 员工姓名 -->
-    <view class="order-index"></view>
-		<view class="">{{order.name}}</view>
-	</view>
-</view>

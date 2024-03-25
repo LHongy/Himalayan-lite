@@ -1,0 +1,8 @@
+<view class="course">
+	<!-- 课程详情 -->
+	<view class="course-content">
+		<!-- 课程名字 -->
+    <view class="course-index"></view>
+		<view class="">{{course.name}}</view>
+	</view>
+</view>

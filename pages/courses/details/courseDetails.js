@@ -1,11 +1,14 @@
-// pages/orders/list/details.js
+// pages/courses/details/courseDetails.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    course: {
+      id: 1,
+      name: '象棋飞刀与布局'
+    }
   },
 
   /**

@@ -88,7 +88,7 @@ Page({
     const { id } = event.currentTarget.dataset;
     console.log(id);
 		wx.navigateTo({
-      url: `/pages/staffs/details/details?id=${id}`,
+      url: `/pages/staffs/details/staffDetails?id=${id}`,
 		});
 	},
 });

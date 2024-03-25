@@ -1,0 +1,12 @@
+<view class="course">
+	<!-- 课程搜索 -->
+  <mp-searchbar placeholder="搜索" bindinput="onSearchInput" bindclear="onSearchClear"></mp-searchbar>
+
+	<!-- 课程列表 -->
+	<view class="course-content" wx:for="{{courses}}" wx:key="index" bindtap="viewDetails" data-id="{{ item.id }}">
+		<!-- 序号 -->
+		<view class="course-index">{{ item.id }}</view>
+		<!-- 课程名字 -->
+		<view class="">{{ item.name }}</view>
+	</view>
+</view>

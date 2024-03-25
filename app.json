@@ -2,10 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/user/user",
-    "pages/staffs/list/list",
-    "pages/staffs/details/details",
-    "pages/orders/list/orderList",
-    "pages/orders/details/orderDetails",
+    "pages/staffs/list/staffList",
+    "pages/staffs/details/staffDetails",
+    "pages/courses/list/courseList",
+    "pages/courses/details/courseDetails",
     "pages/user/phoneLogin/phoneLogin"
   ],
   "window": {
